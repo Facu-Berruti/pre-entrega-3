@@ -1,0 +1,40 @@
+.footer-container{
+    background-color: black;
+    @include display;
+    
+}
+.footer{
+    
+    width: 95%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+    
+    
+}
+.que-hacemos{
+    color: #c4c4c4;
+    width: 31%;
+    transition: 0.5s;
+    &:hover{
+        color: rgb(251, 255, 0);
+    }
+}
+.logos-footer{
+    color: #c4c4c4;
+    width: 31%;
+    text-align: center;
+}
+.contactanos{
+    @extend .logos-footer;
+    transition: 0.5s;
+    &:hover{
+        color: rgb(251, 255, 0);
+    }
+}
+   
+
+
+

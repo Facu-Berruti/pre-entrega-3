@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dedbdb;
+}
+
+.nv {
+  padding: 0;
+}
+
+.header-container {
+  color: #C4C4C4;
+  background-color: #131212;
+  padding: 20px 0;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.logito {
+  height: 150px;
+  width: 150px;
+}
+
+.nombre {
+  font-size: 10ch;
+}
+
+.imgt {
+  padding-right: 5px;
+  padding-top: 3px;
+}
+
+.footer-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 95%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 100%;
+}
+
+.que-hacemos {
+  color: #c4c4c4;
+  width: 31%;
+  transition: 0.5s;
+}
+.que-hacemos:hover {
+  color: rgb(251, 255, 0);
+}
+
+.logos-footer, .contactanos {
+  color: #c4c4c4;
+  width: 31%;
+  text-align: center;
+}
+
+.contactanos {
+  transition: 0.5s;
+}
+.contactanos:hover {
+  color: rgb(251, 255, 0);
+}
+
+/* zona productos */
+.nombre-granola {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.nombre-grano {
+  font-size: 6ch;
+  color: #362a1b;
+}
+
+.productos-container {
+  display: flex;
+  justify-content: center;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 88%;
+  padding: 30px 20px;
+  gap: 70px;
+}
+
+.ultimo {
+  margin: 20px;
+}
+
+.descrip-granola {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.imagenes-granolas {
+  width: 300px;
+  height: 300px;
+}
+
+/* fin zona productos */
+.section-granolas {
+  margin-bottom: 6%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 380px 380px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 60px;
+}
+
+.grid {
+  text-align: center;
+  margin: 20px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  margin: 20px;
+  background-color: #ffffff;
+  padding: 20px 30px;
+}
+
+.titulo-ventas {
+  color: #362a1b;
+  background-color: #c4c4c4;
+  padding: 3% 0;
+  font-size: 180%;
+}
+
+.imagenes-ventas {
+  width: 260px;
+  height: 260px;
+  border: #c4c4c4 solid 5px;
+}
+
+.precio-ventas {
+  text-decoration: none;
+  color: #131212;
+  background-color: #C4C4C4;
+  border: solid 1px black;
+  font-size: 150%;
+}
+
+.precio {
+  margin-top: 10px;
+}
+
+.fondo-barras {
+  width: 100%;
+  height: 450px;
+  background-image: url(./fotos-barras/banner-09-1-738281e491c564f97316696479011676-1920-1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 8px;
+}
+
+.section {
+  background-color: black;
+  padding: 20px;
+  color: #C4C4C4;
+}
+
+.titulo-nosotros {
+  font-size: 400%;
+}
+
+.nosotros-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+}
+
+.nosotros-2 {
+  padding: 60px;
+}
+
+.imagen-nosotros {
+  width: 400px;
+  height: 400px;
+}
+
+.sucursales-container {
+  background-color: #362a1b;
+  padding: 30px;
+}
+
+.sucursales {
+  background-color: white;
+  padding: 20px;
+}
+
+.sucursales-1 {
+  text-align: center;
+}
+
+.titulo-sucursales {
+  font-size: 300%;
+}
+
+.sucursales-2 {
+  padding: 20px;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 695px) {
+  /* header */
+  .nombre {
+    font-size: 6ch;
+  }
+  .imgt {
+    padding-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .logito {
+    height: 70px;
+    width: 70px;
+  }
+  /* fin header */
+  .nombre-granola {
+    padding: 10px 0;
+  }
+  .nombre-grano {
+    font-size: 4ch;
+  }
+  .productos {
+    padding: 20px 10px;
+    gap: 20px;
+  }
+  .descrip-granola {
+    font-size: 90%;
+  }
+  .imagenes-granolas {
+    width: 150px;
+    height: 150px;
+  }
+  /* footer */
+  .footer {
+    font-size: 70%;
+  }
+  /* fin footer */
+}
+@media only screen and (max-width: 500px) {
+  /* header */
+  .nombre {
+    font-size: 5ch;
+  }
+  .imgt {
+    padding-right: 3px;
+    height: 17px;
+    width: 17px;
+  }
+  .logito {
+    height: 60px;
+    width: 60px;
+  }
+  /* fin header */
+  .nombre-granola {
+    padding: 10px 0;
+  }
+  .nombre-grano {
+    font-size: 3ch;
+  }
+  .productos {
+    padding: 15px 8px;
+    gap: 15px;
+  }
+  .descrip-granola {
+    font-size: 60%;
+  }
+  .imagenes-granolas {
+    width: 140px;
+    height: 140px;
+  }
+  /* footer */
+  .footer {
+    font-size: 45%;
+  }
+  /* fin footer */
+  .section-container {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+  .titulo-nosotros {
+    font-size: 300%;
+  }
+  .nosotros-container {
+    padding: 0px;
+  }
+  .nosotros {
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+  .nosotros-2 {
+    padding: 0px;
+    font-size: 90%;
+  }
+  .imagen-nosotros {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1350px) {
+  /* granolas.html */
+  .grid-container {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .grid {
+    margin: 5px;
+  }
+  .grid-item {
+    margin: 5px;
+    padding: 15px 20px;
+  }
+  .titulo-ventas {
+    font-size: 110%;
+  }
+  .imagenes-ventas {
+    width: 180px;
+    height: 180px;
+  }
+  .precio-ventas {
+    font-size: 110%;
+    padding: 2px;
+  }
+  .precio {
+    margin-top: 8px;
+  }
+  /* fin granolas.html */
+  .section-container {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+  .titulo-nosotros {
+    font-size: 400%;
+  }
+  .nosotros-container {
+    padding: 20px;
+  }
+  .nosotros {
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+  .nosotros-2 {
+    padding: 0px;
+    font-size: 150%;
+  }
+  .imagen-nosotros {
+    width: 230px;
+    height: 230px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .grid {
+    margin: 7px;
+  }
+  .grid-item {
+    margin: 5px;
+    padding: 10px 13px;
+  }
+  .titulo-ventas {
+    font-size: 100%;
+  }
+  .imagenes-ventas {
+    width: 140px;
+    height: 140px;
+  }
+  .precio-ventas {
+    font-size: 100%;
+    padding: 2px;
+  }
+  .precio {
+    margin-top: 5px;
+  }
+  /* fin granolas.html */
+  .section-container {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+  .titulo-nosotros {
+    font-size: 350%;
+  }
+  .nosotros-container {
+    padding: 0px;
+  }
+  .nosotros {
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+  .nosotros-2 {
+    padding: 0px;
+    font-size: 100%;
+  }
+  .imagen-nosotros {
+    width: 190px;
+    height: 190px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .grid {
+    margin: 20px;
+  }
+  .grid-item {
+    margin: 5px;
+    padding: 20px 30px;
+  }
+  .titulo-ventas {
+    font-size: 150%;
+  }
+  .imagenes-ventas {
+    width: 140px;
+    height: 140px;
+  }
+  .precio-ventas {
+    font-size: 100%;
+    padding: 2px;
+  }
+  .precio {
+    margin-top: 5px;
+  }
+  /* fin granolas.html */
+}
+@media only screen and (min-width: 1350px) and (max-width: 1770px) {
+  /* granolas.html */
+  .grid-container {
+    gap: 35px;
+  }
+  .grid {
+    margin: 20px 0;
+  }
+  .grid-item {
+    margin: 20px 0;
+    padding: 20px 30px;
+  }
+  /* fin granolas.html */
+}
+
+/*# sourceMappingURL=style.css.map */

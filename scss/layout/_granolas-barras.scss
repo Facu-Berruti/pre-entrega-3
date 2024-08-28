@@ -1,0 +1,60 @@
+.section-granolas{
+    margin-bottom: 6%;
+    
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: 380px 380px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+    
+}
+.grid{
+   text-align: center;
+   margin: 20px;
+}
+.grid-item{
+    border: 1px solid black;
+    margin: 20px;
+    background-color: #ffffff;
+    
+    padding: 20px 30px ;
+
+}
+.titulo-ventas{
+    color: #362a1b;
+    background-color: #c4c4c4;
+    padding: 3% 0;
+    font-size: 180%;
+   
+}
+.imagenes-ventas{
+    width: 260px;
+    height: 260px;
+    border: #c4c4c4 solid 5px;
+
+}
+.precio-ventas{
+    text-decoration: none;
+    color: #131212;
+    background-color: #C4C4C4;
+    border: solid 1px black;
+    font-size: 150%;
+    
+}
+.precio{
+    margin-top: 10px;
+}
+.fondo-barras{
+    width: 100%;
+    height: 450px;
+    background-image: url(./fotos-barras/banner-09-1-738281e491c564f97316696479011676-1920-1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+

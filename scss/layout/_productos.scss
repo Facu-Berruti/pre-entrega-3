@@ -1,0 +1,39 @@
+/* zona productos */
+
+.nombre-granola{
+    @include display;
+    padding: 20px 0;
+
+}
+.nombre-grano{
+    font-size: 6ch;
+    color: #362a1b;
+}
+
+.productos-container{
+    @include display;
+
+}
+.productos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 88%;
+    padding: 30px 20px;
+    gap: 70px;
+}
+
+.ultimo{
+    margin: 20px;
+}
+.descrip-granola{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+}
+.imagenes-granolas{
+    width: 300px;
+    height: 300px;
+}
+/* fin zona productos */

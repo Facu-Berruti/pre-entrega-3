@@ -1,0 +1,270 @@
+@media only screen and (min-width: 501px) and (max-width: 695px) {
+    /* header */
+    .nombre{
+       font-size: 6ch;   
+    }
+    .imgt{
+        padding-right: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    .logito{
+       height: 70px;
+       width: 70px;
+    }
+    /* fin header */
+.nombre-granola{
+    padding: 10px 0;
+}
+.nombre-grano{
+    font-size: 4ch;
+}
+.productos{
+    padding: 20px 10px;
+    gap: 20px;
+}
+.descrip-granola{
+    font-size: 90%;
+}
+.imagenes-granolas{
+    width: 150px;
+    height: 150px;
+}
+/* footer */
+.footer{
+    font-size: 70%;
+}
+/* fin footer */
+}
+
+@media only screen and (max-width: 500px){
+      /* header */
+      .nombre{
+        font-size: 5ch; 
+     }
+     .imgt{
+         padding-right: 3px;
+         height: 17px;
+         width: 17px;
+     }
+     .logito{
+        height: 60px;
+        width: 60px;
+     }
+     /* fin header */
+ .nombre-granola{
+     padding: 10px 0;
+ }
+ .nombre-grano{
+     font-size: 3ch;
+ }
+ .productos{
+     padding: 15px 8px;
+     gap: 15px;
+ }
+ .descrip-granola{
+     font-size: 60%;
+ }
+ .imagenes-granolas{
+     width: 140px;
+     height: 140px;
+ }
+ /* footer */
+ .footer{
+     font-size: 45%;
+ }
+ /* fin footer */
+ .section-container{
+    width: 100%;
+    height: 200px;
+    border:none;
+}
+.titulo-nosotros{
+    font-size: 300%;
+}
+.nosotros-container{
+    padding: 0px;
+}
+.nosotros{
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.nosotros-2{
+    padding: 0px;
+    font-size: 90%;
+}
+.imagen-nosotros{
+    width: 140px;
+    height: 140px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1350px){
+    /* granolas.html */
+.grid-container{
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
+.grid{
+   margin: 5px;
+}
+.grid-item{
+    margin: 5px;
+    padding: 15px 20px ;
+}
+.titulo-ventas{
+    font-size: 110%;
+}
+.imagenes-ventas{
+    width: 180px;
+    height: 180px;
+}
+.precio-ventas{
+    font-size: 110%;
+    padding: 2px;
+}
+.precio{
+    margin-top: 8px;
+}
+
+/* fin granolas.html */
+.section-container{
+    width: 100%;
+    height: 200px;
+    border:none;
+}
+.titulo-nosotros{
+    font-size: 400%;
+}
+.nosotros-container{
+    padding: 20px;
+}
+.nosotros{
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.nosotros-2{
+    padding: 0px;
+    font-size: 150%;
+}
+.imagen-nosotros{
+    width: 230px;
+    height: 230px;
+}
+
+}
+@media only screen and (min-width: 500px) and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-rows: 220px 220px 220px 220px;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .grid{
+       margin: 7px;
+    }
+    .grid-item{
+        margin: 5px;
+        padding: 10px 13px ;
+    }
+    .titulo-ventas{
+        font-size: 100%;
+    }
+    .imagenes-ventas{
+        width: 140px;
+        height: 140px;
+    }
+    .precio-ventas{
+        font-size: 100%;
+        padding: 2px;
+    }
+    .precio{
+        margin-top: 5px;
+    }
+    
+    /* fin granolas.html */
+    .section-container{
+        width: 100%;
+        height: 200px;
+        border:none;
+    }
+    .titulo-nosotros{
+        font-size: 350%;
+    }
+    .nosotros-container{
+        padding: 0px;
+    }
+    .nosotros{
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .nosotros-2{
+        padding: 0px;
+        font-size: 100%;
+    }
+    .imagen-nosotros{
+        width: 190px;
+        height: 190px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .grid-container{
+        display: grid;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px ;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .grid{
+       margin: 20px;
+    }
+    .grid-item{
+        margin: 5px;
+        padding: 20px 30px ;
+    }
+    .titulo-ventas{
+        font-size: 150%;
+    }
+    .imagenes-ventas{
+        width: 140px;
+        height: 140px;
+    }
+    .precio-ventas{
+        font-size: 100%;
+        padding: 2px;
+    }
+    .precio{
+        margin-top: 5px;
+    }
+    
+    /* fin granolas.html */
+}
+@media only screen and (min-width: 1350px) and (max-width: 1770px){
+    /* granolas.html */
+.grid-container{
+    gap: 35px;
+    
+}
+.grid{
+  
+   margin: 20px 0;
+}
+.grid-item{
+   
+    margin: 20px 0;
+  
+    
+    padding: 20px 30px ;
+
+}
+
+
+
+/* fin granolas.html */
+}
